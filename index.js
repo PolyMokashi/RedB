@@ -14,7 +14,7 @@ app.use(
     origin: "*",
   })
 );
-const port = process.env.port || 4000;
+const port = 4000;
 app.use(express.json());
 const url =
   "mongodb+srv://redbcorp:58NqmpTU5u6zH13N@redb.3ulmyu0.mongodb.net/Blood_Bank?retryWrites=true&w=majority";
